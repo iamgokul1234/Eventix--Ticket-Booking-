@@ -3,6 +3,7 @@
     "target": "ES2022",
     "module": "commonjs",
     "moduleResolution": "node",
+    "ignoreDeprecations": "5.0",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
@@ -16,11 +17,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
