@@ -23,6 +23,7 @@
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.4",
+    "typescript": "5.7.3",
     "uuid": "^10.0.0",
     "zod": "^3.23.8"
   },
@@ -37,7 +38,6 @@
     "@vitest/coverage-v8": "^1.6.0",
     "supertest": "^7.0.0",
     "tsx": "^4.15.7",
-    "typescript": "5.7.3",
     "vitest": "^1.6.0"
   }
 }
